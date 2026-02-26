@@ -1,0 +1,9 @@
+CRITICAL - 2024-12-04 00:25:53 --> ParseError: syntax error, unexpected token "echo", expecting "," or ";"
+in APPPATH/Views/candidature/candidature_galerie.php on line 52.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Candidature.php(96): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher_galerie_candidature()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,198 @@
+bernard.alice@Olympix.com zrerherht354er	
+durand.pierre@Olympix.com 354f3ez5fez35r
+john.smith@Olympix.com zmlkjhgfdsgEE44geg 	
+lefevre.clara@Olympix.com asd434JHHGG
+marcel.decheval@Olympix.com azertyuiop	
+martin.sophie@Olympix.com dcsshhrre1154A
+nicolas.asticot@Olympix.com dee4d4fyKJdda	
+organisateur@Olympix.com org24*PMYLO
+pseudo1@Olympix.com ergmjreerhrh34354	
+pseudo3@Olympix.com zsdmkgjgr44488eee	
+terminal@Olympix.com kOepig4454ffgy	
+
+SET FOREIGN_KEY_CHECKS = 0;
+
+UPDATE `t_compte_cpt`
+SET `cpt_login` = 'pseudo1@Olympix.com'
+WHERE `cpt_login` = '123';
+
+UPDATE `t_jury_jur`
+SET `cpt_login` = 'pseudo1@Olympix.com'
+WHERE `cpt_login` = '123';
+
+SET FOREIGN_KEY_CHECKS = 1;
+
+SELECT cpt_login, adm_id, jur_id FROM t_compte_cpt LEFT JOIN t_administrateur_adm USING(cpt_login) LEFT JOIN t_jury_jur USING(cpt_login)
+
+3
+Biographie Jury Peinture
+http://jury-peinture.com
+Peinture
+lefevre.clara@Olympix.com
+
+INSERT INTO `t_ressource_res` (`res_id`, `res_nom`, `res_description`, `res_chemin`, `res_type`, `can_id`) VALUES
+(1, 'tableau de fleurs', 'Image soumise pour le concours de photographie', 'tableau2.jpeg', 1, 1),
+(2, 'Fichier musical', 'Fichier audio pour le concours de musique', 'musique.png', 2, 2),
+(3, 'Tableau peint', 'Tableau pour le concours de peinture', 'tableau.png', 1, 3),
+(4, 'Fichier scuplture', 'Scuplture pour le concours de photo scuplture', 'sculpture.jpg', 1, 4),
+(5, 'Fichier animalier', 'Fichier audio pour le concours animalier', 'animal.jpg', 2, 5),
+(16, 'tableau simple', 'tableau de peinture', 'tableau.jpg', 1, 1);
+
+INSERT INTO `t_candidature_can` (`can_id`, `can_code`, `can_dossier`, `can_prenom`, `can_nom`, `can_mail`, `can_retenue`, `can_date`, `can_etat`, `cat_id`, `con_id`) VALUES
+(1, 'AQSwdze4', 'p5EFPm3fe5wXR28yS66c', 'organisateur', 'organisateur', 'organisateur@Olympix.com', 'R', '2024-10-05', 'A', 1, 3),
+(2, 'X9y8Z7w6', 'FAUx5V58x2vgb99H2fGc', 'Sophie', 'Martin', 'sophie.martin@Olympix.com', 'R', '2024-10-27', 'A', 2, 2),
+(3, 'K5l6M7n8', 'x6tBdUF6f477x3Wa5cVU', 'Clara', 'Lefevre', 'clara.lefevre@Olympix.com', 'I', '2024-10-16', 'A', 3, 1),
+(4, 'P1q2R3s4', 'a9k5MAPgHN9p3cnj64S3', 'Pierre', 'Durand', 'pierre.durand@Olympix.com', 'I', '2024-10-31', 'A', 3, 5),
+(5, 'H5j6K7l8', '4sHw8N4PSr38n3ZetB4q', 'Alice', 'Bernard', 'alice.bernard@Olympix.com', 'I', '2024-10-12', 'A', 2, 4),
+(6, 'T7v8U9w0', 'dWrG36yBcxv75Ds97KG5', 'Sophie', 'Martin', 'sophie.martin@Olympix.com', 'I', '2024-10-16', 'A', 2, 3),
+(8, 'M6n7O8p9', 'x5Ggk8V4F9U2Ut5kEa5d', 'Pierre', 'Durand', 'pierre.durand@Olympix.com', 'I', '2024-10-26', 'A', 2, 1),
+(9, 'Q2x3AAz5', '6xqLRA8866s7XsdZ6vbW', 'Nicolas', 'Asticot', 'nicolas.asticot@Olympix.com', 'R', '2024-10-29', 'A', 3, 2),
+(10, 'M6w4O8p9', 'x5Qgk8V4a932Uv5kEa5d', 'Pedro', 'Madaire', 'pedro.madaire@Olympix.com', 'I', '2024-10-15', 'A', 2, 1);
+
+11
+L8p9Q2x3
+j7HgL4p5Nd98s7BaCcX
+Jean
+Bon
+jean.bon@Olympix.com
+R
+2024-11-01
+A
+1
+4
+
+Éditer Éditer
+Copier Copier
+Supprimer Supprimer
+12
+R7s9T3v1
+k7V3Fz83Hd98x2a3BbFg
+Anne
+Onyme
+anne.onyme@Olympix.com
+I
+2024-11-03
+A
+2
+5
+
+Éditer Éditer
+Copier Copier
+Supprimer Supprimer
+13
+N5k8O9p7
+p5Xa6Fy32X7s9cNbHaFg
+Guy
+Tar
+guy.tar@Olympix.com
+R
+2024-11-05
+A
+3
+1
+
+Éditer Éditer
+Copier Copier
+Supprimer Supprimer
+14
+P8o9Q4x7
+m8X3gLd47t2Nb8FyHaFg
+Alain
+Térieur
+alain.terieur@Olympix.com
+I
+2024-11-07
+A
+1
+2
+
+Éditer Éditer
+Copier Copier
+Supprimer Supprimer
+15
+H9w6M7k8
+z9W4Fs8L39q2Hd8BbNcF
+Léa
+Titia
+lea.titia@Olympix.com
+R
+2024-11-09
+A
+3
+3
+
+Éditer Éditer
+Copier Copier
+Supprimer Supprimer
+16
+T8v9U1w2
+    n7V9LdX5BaFs9Nd3BbFg
+Ella
+Boration
+ella.boration@Olympix.com
+I
+2024-11-10
+A
+2
+4
+
+Éditer Éditer
+Copier Copier
+Supprimer Supprimer
+17
+Q1x5AAz9
+q8XaV6N5Fg7HdFs3BbCc
+Luc
+iole
+luc.iole@Olympix.com
+R
+2024-11-11
+A
+1
+5
+
+Éditer Éditer
+Copier Copier
+Supprimer Supprimer
+18
+L6n7O5p8
+x9GaX4Fs7NdBb8cHaFg4
+Pascal
+Opette
+pascal.opette@Olympix.com
+I
+2024-11-12
+A
+3
+2
+
+Éditer Éditer
+Copier Copier
+Supprimer Supprimer
+19
+R4s9T8v7
+v6Hb8Ld7X5Fs8Nc3GaBb
+Emma
+Buée
+emma.buee@Olympix.com
+R
+2024-11-13
+A
+2
+1
+
+Éditer Éditer
+Copier Copier
+Supprimer Supprimer
+20
+P9o1Q3x7
+k5X7V3LdHaFs8Nb4c3Bb
+Hugo
+Dinateur
+hugo.dinateur@Olympix.com
+I
+2024-11-15
+A
+1
+4
+Avec la sélection :

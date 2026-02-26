@@ -1,0 +1,513 @@
+INFO - 2024-11-14 00:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 00:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 00:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 00:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-14 00:06:33 --> ArgumentCountError: Too few arguments to function App\Controllers\Candidature::afficher(), 0 passed in /home/2024DIFAL3/e22002182/public_html/V1/ci/system/CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH/Controllers/Candidature.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 00:15:24 --> ErrorException: Undefined variable $numero
+in APPPATH/Controllers/Candidature.php on line 18.
+ 1 APPPATH/Controllers/Candidature.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 00:15:40 --> ArgumentCountError: Too few arguments to function App\Models\Db_model::get_actualite(), 0 passed in /home/2024DIFAL3/e22002182/public_html/V1/ci/app/Controllers/Candidature.php on line 18 and exactly 1 expected
+in APPPATH/Models/Db_model.php on line 43.
+ 1 APPPATH/Controllers/Candidature.php(18): App\Models\Db_model->get_actualite()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 00:15:41 --> ArgumentCountError: Too few arguments to function App\Models\Db_model::get_actualite(), 0 passed in /home/2024DIFAL3/e22002182/public_html/V1/ci/app/Controllers/Candidature.php on line 18 and exactly 1 expected
+in APPPATH/Models/Db_model.php on line 43.
+ 1 APPPATH/Controllers/Candidature.php(18): App\Models\Db_model->get_actualite()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-14 00:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-14 00:26:45 --> Error: Call to undefined function validation_list_errors()
+in APPPATH/Views/compte/compte_creer.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Candidature.php(65): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->visualiser()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 00:27:49 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in /home/2024DIFAL3/e22002182/public_html/V1/ci/app/Config/Routes.php on line 26
+in SYSTEMPATH/Router/RouteCollection.php on line 1017.
+ 1 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH/Router/RouteCollection.php(344): require('/home/2024DIFAL3/e22002182/public_html/V1/ci/app/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 00:28:22 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in /home/2024DIFAL3/e22002182/public_html/V1/ci/app/Config/Routes.php on line 26
+in SYSTEMPATH/Router/RouteCollection.php on line 1017.
+ 1 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH/Router/RouteCollection.php(344): require('/home/2024DIFAL3/e22002182/public_html/V1/ci/app/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 00:31:12 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in /home/2024DIFAL3/e22002182/public_html/V1/ci/app/Config/Routes.php on line 26
+in SYSTEMPATH/Router/RouteCollection.php on line 1017.
+ 1 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH/Router/RouteCollection.php(344): require('/home/2024DIFAL3/e22002182/public_html/V1/ci/app/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 00:35:29 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in /home/2024DIFAL3/e22002182/public_html/V1/ci/app/Config/Routes.php on line 26
+in SYSTEMPATH/Router/RouteCollection.php on line 1017.
+ 1 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH/Router/RouteCollection.php(344): require('/home/2024DIFAL3/e22002182/public_html/V1/ci/app/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 00:41:39 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in /home/2024DIFAL3/e22002182/public_html/V1/ci/app/Config/Routes.php on line 26
+in SYSTEMPATH/Router/RouteCollection.php on line 1017.
+ 1 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH/Router/RouteCollection.php(344): require('/home/2024DIFAL3/e22002182/public_html/V1/ci/app/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 00:42:47 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in /home/2024DIFAL3/e22002182/public_html/V1/ci/app/Config/Routes.php on line 26
+in SYSTEMPATH/Router/RouteCollection.php on line 1017.
+ 1 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH/Router/RouteCollection.php(344): require('/home/2024DIFAL3/e22002182/public_html/V1/ci/app/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 00:44:48 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in /home/2024DIFAL3/e22002182/public_html/V1/ci/app/Config/Routes.php on line 26
+in SYSTEMPATH/Router/RouteCollection.php on line 1017.
+ 1 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH/Router/RouteCollection.php(344): require('/home/2024DIFAL3/e22002182/public_html/V1/ci/app/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 00:45:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "candidature/haut.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Candidature.php(64): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->visualiser()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-14 00:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-14 00:46:51 --> Error: Call to undefined function validation_list_errors()
+in APPPATH/Views/candidature/candidature_visualiser.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Candidature.php(66): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->visualiser()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-14 00:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-14 00:48:59 --> Error: Call to undefined function validation_list_errors()
+in APPPATH/Views/candidature/candidature_visualiser.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Candidature.php(66): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->visualiser()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-14 00:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-14 00:49:50 --> Error: Call to undefined function validation_list_errors()
+in APPPATH/Views/candidature/candidature_visualiser.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Candidature.php(66): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->visualiser()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-14 00:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-14 00:50:33 --> Error: Call to undefined function form_open()
+in APPPATH/Views/candidature/candidature_visualiser.php on line 43.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Candidature.php(66): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->visualiser()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 00:52:07 --> ParseError: syntax error, unexpected token "<", expecting end of file
+in APPPATH/Views/candidature/candidature_visualiser.php on line 44.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Candidature.php(66): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->visualiser()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 00:52:18 --> Error: Call to undefined function validation_show_error()
+in APPPATH/Views/candidature/candidature_visualiser.php on line 46.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Candidature.php(66): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->visualiser()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-14 00:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-14 00:52:31 --> Error: Call to undefined function validation_list_errors()
+in APPPATH/Views/candidature/candidature_visualiser.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Candidature.php(66): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->visualiser()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-14 00:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-14 00:52:35 --> Error: Call to undefined function validation_list_errors()
+in APPPATH/Views/candidature/candidature_visualiser.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Candidature.php(66): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->visualiser()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-14 00:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-14 00:59:01 --> Error: Call to undefined function validation_list_errors()
+in APPPATH/Views/candidature/candidature_visualiser.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Candidature.php(66): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->visualiser()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-14 00:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-14 00:59:04 --> Error: Call to undefined function validation_list_errors()
+in APPPATH/Views/candidature/candidature_visualiser.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Candidature.php(66): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->visualiser()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-14 00:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-14 00:59:05 --> Error: Call to undefined function validation_list_errors()
+in APPPATH/Views/candidature/candidature_visualiser.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Candidature.php(66): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->visualiser()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-14 01:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-14 01:00:21 --> Error: Call to undefined function validation_list_errors()
+in APPPATH/Views/candidature/candidature_visualiser.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Candidature.php(66): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->visualiser()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-14 01:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 01:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 01:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-14 01:05:53 --> Error: Call to undefined function validation_list_errors()
+in APPPATH/Views/candidature/candidature_visualiser.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Candidature.php(66): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->visualiser()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-14 01:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-14 01:08:42 --> Error: Call to undefined function validation_list_errors()
+in APPPATH/Views/candidature/candidature_visualiser.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Candidature.php(66): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->visualiser()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-14 01:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-14 01:08:50 --> Error: Call to undefined function validation_list_errors()
+in APPPATH/Views/candidature/candidature_visualiser.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Candidature.php(66): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->visualiser()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-14 01:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-14 01:12:26 --> Error: Call to undefined function validation_list_errors()
+in APPPATH/Views/candidature/candidature_visualiser.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Candidature.php(66): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->visualiser()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-14 01:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-14 01:13:11 --> Error: Call to undefined function validation_list_errors()
+in APPPATH/Views/candidature/candidature_visualiser.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Candidature.php(66): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->visualiser()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 06:54:41 --> ParseError: syntax error, unexpected identifier "SELECT", expecting "function" or "const"
+in APPPATH/Models/Db_model.php on line 104.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(280): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(199): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(158): CodeIgniter\Config\Factories::getDefinedInstance()
+ 7 SYSTEMPATH/Common.php(813): CodeIgniter\Config\Factories::__callStatic()
+ 8 APPPATH/Controllers/Accueil.php(12): model()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Accueil->afficher()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-14 07:04:59 --> mysqli_sql_exception: Unknown column 'p5EFPm3fe5wXR28yS66c' in 'where clause' in /home/2024DIFAL3/e22002182/public_html/V1/ci/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/2024DIFAL3/e22002182/public_html/V1/ci/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/2024DIFAL3/e22002182/public_html/V1/ci/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/2024DIFAL3/e22002182/public_html/V1/ci/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/2024DIFAL3/e22002182/public_html/V1/ci/app/Models/Db_model.php(108): CodeIgniter\Database\BaseConnection->query()
+#4 /home/2024DIFAL3/e22002182/public_html/V1/ci/app/Controllers/Candidature.php(21): App\Models\Db_model->get_candidat()
+#5 /home/2024DIFAL3/e22002182/public_html/V1/ci/system/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+#6 /home/2024DIFAL3/e22002182/public_html/V1/ci/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/2024DIFAL3/e22002182/public_html/V1/ci/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/2024DIFAL3/e22002182/public_html/V1/ci/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-14 07:04:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'p5EFPm3fe5wXR28yS66c' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Models/Db_model.php(108): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Candidature.php(21): App\Models\Db_model->get_candidat()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 07:04:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'p5EFPm3fe5wXR28yS66c' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH/Models/Db_model.php(108): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Candidature.php(21): App\Models\Db_model->get_candidat()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 07:04:59 --> [Caused by] mysqli_sql_exception: Unknown column 'p5EFPm3fe5wXR28yS66c' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Db_model.php(108): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Candidature.php(21): App\Models\Db_model->get_candidat()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-14 07:14:02 --> mysqli_sql_exception: Unknown column 'p5EFPm3fe5wXR28yS66c' in 'where clause' in /home/2024DIFAL3/e22002182/public_html/V1/ci/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/2024DIFAL3/e22002182/public_html/V1/ci/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/2024DIFAL3/e22002182/public_html/V1/ci/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/2024DIFAL3/e22002182/public_html/V1/ci/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/2024DIFAL3/e22002182/public_html/V1/ci/app/Models/Db_model.php(108): CodeIgniter\Database\BaseConnection->query()
+#4 /home/2024DIFAL3/e22002182/public_html/V1/ci/app/Controllers/Candidature.php(21): App\Models\Db_model->get_candidat()
+#5 /home/2024DIFAL3/e22002182/public_html/V1/ci/system/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+#6 /home/2024DIFAL3/e22002182/public_html/V1/ci/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/2024DIFAL3/e22002182/public_html/V1/ci/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/2024DIFAL3/e22002182/public_html/V1/ci/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-14 07:14:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'p5EFPm3fe5wXR28yS66c' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Models/Db_model.php(108): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Candidature.php(21): App\Models\Db_model->get_candidat()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 07:14:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'p5EFPm3fe5wXR28yS66c' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH/Models/Db_model.php(108): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Candidature.php(21): App\Models\Db_model->get_candidat()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 07:14:02 --> [Caused by] mysqli_sql_exception: Unknown column 'p5EFPm3fe5wXR28yS66c' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Db_model.php(108): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Candidature.php(21): App\Models\Db_model->get_candidat()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 07:16:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "affichage_candidature.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Candidature.php(24): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 07:43:34 --> ErrorException: Attempt to read property "can_nom" on array
+in APPPATH/Views/candidature/affichage_candidature.php on line 23.
+ 1 APPPATH/Views/candidature/affichage_candidature.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22002182/public_html/V1/ci/app/Views/candidature/affichage_candidature.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 07:47:17 --> ErrorException: Attempt to read property "can_nom" on array
+in APPPATH/Views/candidature/affichage_candidature.php on line 23.
+ 1 APPPATH/Views/candidature/affichage_candidature.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22002182/public_html/V1/ci/app/Views/candidature/affichage_candidature.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 07:49:33 --> ParseError: syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH/Views/candidature/affichage_candidature.php on line 26.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Candidature.php(24): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 07:50:12 --> ErrorException: Attempt to read property "can_nom" on array
+in APPPATH/Views/candidature/affichage_candidature.php on line 23.
+ 1 APPPATH/Views/candidature/affichage_candidature.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22002182/public_html/V1/ci/app/Views/candidature/affichage_candidature.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 07:50:20 --> ErrorException: Undefined variable $can
+in APPPATH/Views/candidature/affichage_candidature.php on line 25.
+ 1 APPPATH/Views/candidature/affichage_candidature.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22002182/public_html/V1/ci/app/Views/candidature/affichage_candidature.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 07:50:34 --> ErrorException: Undefined array key "can_nom"
+in APPPATH/Views/candidature/affichage_candidature.php on line 25.
+ 1 APPPATH/Views/candidature/affichage_candidature.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22002182/public_html/V1/ci/app/Views/candidature/affichage_candidature.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 08:07:25 --> ErrorException: Undefined variable $cov
+in APPPATH/Views/candidature/affichage_candidature.php on line 37.
+ 1 APPPATH/Views/candidature/affichage_candidature.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22002182/public_html/V1/ci/app/Views/candidature/affichage_candidature.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(25): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 08:13:24 --> ParseError: syntax error, unexpected token "if", expecting "," or ";"
+in APPPATH/Views/candidature/affichage_candidature.php on line 25.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Candidature.php(23): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 08:15:46 --> ParseError: syntax error, unexpected token "echo", expecting "," or ";"
+in APPPATH/Views/candidature/affichage_candidature.php on line 39.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Candidature.php(23): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 08:30:48 --> ErrorException: Undefined property: stdClass::$_con_nom
+in APPPATH/Views/candidature/affichage_candidature.php on line 31.
+ 1 APPPATH/Views/candidature/affichage_candidature.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22002182/public_html/V1/ci/app/Views/candidature/affichage_candidature.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-14 08:30:51 --> ErrorException: Undefined property: stdClass::$_con_nom
+in APPPATH/Views/candidature/affichage_candidature.php on line 31.
+ 1 APPPATH/Views/candidature/affichage_candidature.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2024DIFAL3/e22002182/public_html/V1/ci/app/Views/candidature/affichage_candidature.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Candidature.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Candidature->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
